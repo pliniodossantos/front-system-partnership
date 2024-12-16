@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-const withMT = require("@material-tailwind/react/utils/withMT");
+import withMT from "@material-tailwind/react/utils/withMT";
 
-
+import { default as formsPlugin } from "@tailwindcss/forms";
    
-module.exports = withMT({
+export default withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",  ],
@@ -15,6 +15,6 @@ module.exports = withMT({
     }
   },
   plugins: [
-    require('@tailwindcss/forms'),
+    formsPlugin
   ],
 });
