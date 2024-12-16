@@ -1,4 +1,3 @@
-import "../../assets/landindHome.css"
 
 
 async function formHandle(e) {
