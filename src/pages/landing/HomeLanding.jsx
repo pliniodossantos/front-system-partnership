@@ -19,7 +19,7 @@ export default function HomeLanding() {
       <header>
         <nav class="bg-primaria border-gray-200 px-4 lg:px-6 py-2.5">
           <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <div class="ml-auto mr-auto sm:ml-auto sm:mr-auto md:ml-auto md:mr-auto lg:mr-0 order-1 flex items-center lg:order-2">
+            <div class="mt-2 ml-auto mr-auto sm:ml-auto sm:mr-auto md:ml-auto md:mr-auto lg:mr-0 order-1 flex items-center lg:order-2">
               <select name="" id="links" className="bg-secundaria rounded-md" onChange={async function (e) { await formHandle(e) }}>
                 <option className="text-primaria" value="">Area de Login</option>
                 <option className="text-primaria" value="/login/customer">Profissional</option>
@@ -28,7 +28,7 @@ export default function HomeLanding() {
               </select>
 
             </div>
-            <div class="justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+            <div class="mt-1 justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
               <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li className="ml-auto mr-auto">
                   <a href="#" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white" aria-current="page">Home</a>

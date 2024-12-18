@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router"
-import { CreateCustomer, LoginCustomer, ForgotPasswordCustomerStep1, ForgotPasswordCustomerStep2, CreateConsulant, LoginConsulant, CreateStore, LoginStore, ForgotPasswordConsulantStep1, ForgotPasswordConsulantStep2, ForgotPasswordStoretStep1, ForgotPasswordStoreStep2, HomeCustomer, HomeConsulant, HomeStore, ProfileCustomer, PointsCustomer, UpdatePasswordCustomer, ProfileConsulant, CreateOrder, PointsConsulant, UpdateStoreConsulant, UpdatePasswordConsulant, ProfileStore, PointsStore, UpdatePasswordStore, DisabledAccountCustomer, DisabledAccountStore, DisabledAccountConsulant, LoginAdmin, CreateAdminStep1, CreateAdminStep2, HomeAdmin, ProfileAdmin, DeleteAccountAdmin, UpdatePasswordAdmin, ForgotPasswordAdminStep1, ForgotPasswordAdminStep2, AdminCustomers, AdminCustomersEdit, AdminStores, AdminStoresEdit, AdminConsulants, AdminConsulantsEdit, PointsAdmin, PointsAdminShow, PointsAdminPending, PointsAdminChose, PointsAdminCreate, PointsAdminConsulant, PointsAdminConsulantOrders, PointsAdminCustomer, PointsAdminCustomersOrders, PointsAdminStore, PointsAdminStoreOrders, About, MeetPartners, Award } from "./pages"
+import { CreateCustomer, LoginCustomer, ForgotPasswordCustomerStep1, ForgotPasswordCustomerStep2, CreateConsulant, LoginConsulant, CreateStore, LoginStore, ForgotPasswordConsulantStep1, ForgotPasswordConsulantStep2, ForgotPasswordStoretStep1, ForgotPasswordStoreStep2, HomeCustomer, HomeConsulant, HomeStore, ProfileCustomer, PointsCustomer, UpdatePasswordCustomer, ProfileConsulant, CreateOrder, PointsConsulant, UpdateStoreConsulant, UpdatePasswordConsulant, ProfileStore, PointsStore, UpdatePasswordStore, DisabledAccountCustomer, DisabledAccountStore, DisabledAccountConsulant, LoginAdmin, CreateAdminStep1, CreateAdminStep2, HomeAdmin, ProfileAdmin, DeleteAccountAdmin, UpdatePasswordAdmin, ForgotPasswordAdminStep1, ForgotPasswordAdminStep2, AdminCustomers, AdminCustomersEdit, AdminStores, AdminStoresEdit, AdminConsulants, AdminConsulantsEdit, PointsAdmin, PointsAdminShow, PointsAdminPending, PointsAdminChose, PointsAdminCreate, PointsAdminConsulant, PointsAdminConsulantOrders, PointsAdminCustomer, PointsAdminCustomersOrders, PointsAdminStore, PointsAdminStoreOrders, About, MeetPartners, Award, PointsAdminCustomerDecrease, PointsAdminConsulantDecrease } from "./pages"
 import HomeLanding from './pages/landing/HomeLanding'
 function App() {
 
@@ -73,6 +73,10 @@ function App() {
           <Route path="/admin/points/customers/order" element={<PointsAdminCustomersOrders />} />
           <Route path="/admin/points/stores" element={<PointsAdminStore />} />
           <Route path="/admin/points/stores/order" element={<PointsAdminStoreOrders />} />
+          <Route path="/admin/points/decrease/customer" element={<PointsAdminCustomerDecrease />} />
+          <Route path="/admin/points/decrease/consulant" element={<PointsAdminConsulantDecrease />} />
+
+
 
           <Route path="/" element={<HomeLanding />} />
           <Route path="/about" element={<About />} />

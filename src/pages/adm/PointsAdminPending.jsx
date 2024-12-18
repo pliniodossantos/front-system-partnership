@@ -117,7 +117,9 @@ export default function PointsAdminPending() {
                 <th className="whitespace-nowrap py-2 font-medium text-gray-900">Consultor</th>
                 <th className="whitespace-nowrap py-2 font-medium text-gray-900">Loja</th>
                 <th className="whitespace-nowrap py-2 font-medium text-gray-900">Obs:</th>
-                <th className="whitespace-nowrap py-2 font-medium text-gray-900">Pontos:</th>
+                <th className="whitespace-nowrap py-2 font-medium text-gray-900">Profissional:</th>
+                <th className="whitespace-nowrap py-2 font-medium text-gray-900">Consultor:</th>
+
 
                 <th className="px-4 py-2"></th>
               </tr>
@@ -134,6 +136,8 @@ export default function PointsAdminPending() {
                     <td className="whitespace-nowrap pl-1 py-2 text-gray-700">{item.store}</td>
                     <td className="whitespace-nowrap pl-1 py-2 text-gray-700">{item.obs}</td>
                     <td className="whitespace-nowrap pl-1 py-2 text-gray-700">{item.pointsCustomer}</td>
+                    <td className="whitespace-nowrap pl-1 py-2 text-gray-700">{item.pointsConsulant}</td>
+
 
                     <td className="whitespace-nowrap  px-1 py-2">
                       <a

@@ -59,6 +59,10 @@ export { default as PointsAdminCustomer } from "./adm/PointsAdminCustomer"
 export { default as PointsAdminCustomersOrders } from "./adm/PointsAdminCustomersOrders"
 export { default as PointsAdminStore } from "./adm/PointsAdminStore"
 export { default as PointsAdminStoreOrders } from "./adm/PointsAdminStoreOrders"
+export { default as PointsAdminCustomerDecrease } from "./adm/PointsAdminCustomerDecrease"
+export { default as PointsAdminConsulantDecrease } from "./adm/PointsAdminConsulantDecrease"
+
+
 
 export { default as homeLanding } from "./landing/HomeLanding"
 export { default as About } from "./landing/About"

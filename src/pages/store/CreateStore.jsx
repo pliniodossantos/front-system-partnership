@@ -20,7 +20,7 @@ async function formHandle(e) {
   const email = e.target.email.value;
   const cnpj = e.target.cnpj.value;
   const password = e.target.password.value;
-  const birthday = e.target.birthday.value;
+  const birthday = e.target.birthday.value.replace(/-/g,"/");
 
   const jsonData = formDataToJsonMapper(name, email, cnpj, password, birthday);
 

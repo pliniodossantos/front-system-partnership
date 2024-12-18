@@ -42,7 +42,7 @@ async function formHandle(e) {
   const name = e.target.name.value;
   const email = e.target.email.value;
   const cpf = e.target.cpf.value;
-  const birthday = e.target.birthday.value;
+  const birthday = e.target.birthday.value.replace(/-/g,"/");
 
   const jsonData = formDataToJsonMapper(idC, name, email, cpf, birthday);
 

@@ -136,6 +136,42 @@ export default function PointsAdmin() {
             </article>
           </a>
         </div>
+        <div className="rounded-lg bg-gray-200">
+          <a href="/admin/points/decrease/customer">
+            <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="../decreaseCustomer.jpg"
+                className="h-56 w-full object-cover "
+              />
+
+              <div className="bg-white p-4 sm:p-6">
+                <h3 className="mt-0.5 text-lg text-gray-900">Lançar pontuação utilizada - Profissional</h3>
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Aqui você consegue lançar uma pontuação que se refere aos pontos já utilizados
+                </p>
+              </div>
+            </article>
+          </a>
+        </div>
+        <div className="rounded-lg bg-gray-200">
+          <a href="/admin/points/decrease/consulant">
+            <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="../decreaseConsulant.jpg"
+                className="h-56 w-full object-cover "
+              />
+
+              <div className="bg-white p-4 sm:p-6">
+                <h3 className="mt-0.5 text-lg text-gray-900">Lançar pontuação utilizada - Consultor</h3>
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Aqui você consegue lançar uma pontuação que se refere aos pontos já utilizados
+                </p>
+              </div>
+            </article>
+          </a>
+        </div>
 
 
 

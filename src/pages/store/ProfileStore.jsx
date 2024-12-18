@@ -24,7 +24,7 @@ function formDataToJsonMapper(name, email, cnpj, birthday) {
     name: name,
     email: email,
     cnpj: cnpj,
-    birthday: birthday,
+    birthday: birthday.replace(/-/g,"/"),
   };
   return JSON.stringify(formatedData)
 }
